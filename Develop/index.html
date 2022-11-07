@@ -4,79 +4,123 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
+    <title>Yedla Code Portfolio</title>
 </head>
 
 <body>
-    <div class="header">
-        <h1>Hori<span class="seo">seo</span>n</h1>
+    <menu class="header">
+        <!-- Wanted to give some "flavor" to the word coding -->
+        <h1>Srini Yedla <span class="coding">[c0d1ng]</span> Portfolio</h1>
         <div>
             <ul>
+                <!-- Menu list of links to different areas within the site -->
                 <li>
-                    <a href="#search-engine-optimization">Search Engine Optimization</a>
+                    <a href="#about">About Me</a>
                 </li>
                 <li>
-                    <a href="#online-reputation-management">Online Reputation Management</a>
+                    <a href="#contact">Contact Info</a>
                 </li>
                 <li>
-                    <a href="#social-media-marketing">Social Media Marketing</a>
+                    <a href="#pre-work">My 1st Application</a>
+                </li>
+                <li>
+                    <a href="#week1">My 2nd Applicatione</a>
+                </li>
+                <li>
+                    <a href="#week2">My Newest Application</a>
                 </li>
             </ul>
         </div>
-    </div>
-    <div class="hero"></div>
-    <div class="content">
-        <div class="search-engine-optimization">
-            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
-            <h2>Search Engine Optimization</h2>
-            <p>
-                The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
-            </p>
-        </div>
-        <div id="online-reputation-management" class="online-reputation-management">
-            <img src="./assets/images/online-reputation-management.jpg" class="float-right" />
-            <h2>Online Reputation Management</h2>
-            <p>
-                The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
-            </p>
-        </div>
-        <div id="social-media-marketing" class="social-media-marketing">
-            <img src="./assets/images/social-media-marketing.jpg" class="float-left" />
-            <h2>Social Media Marketing</h2>
-            <p>
-                Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
-            </p>
-        </div>
-    </div>
-    <div class="benefits">
-        <div class="benefit-lead">
-            <h3>Lead Generation</h3>
-            <img src="./assets/images/lead-generation.png" />
-            <p>
-                Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
-            </p>
-        </div>
-        <div class="benefit-brand">
-            <h3>Brand Awareness</h3>
-            <img src="./assets/images/brand-awareness.png" />
-            <p>
-                Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
-            </p>
-        </div>
-        <div class="benefit-cost">
-            <h3>Cost Management</h3>
-            <img src="./assets/images/cost-management.png"></img>
-            <p>
-                As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
-            </p>
-        </div>
-    </div>
-    <div class="footer">
-        <h2>Made with ❤️️ by Horiseon</h2>
-        <p>
-            &copy; 2019 Horiseon Social Solution Services, Inc.
-        </p>
-    </div>
-</body>
+    </menu>
 
+        <!-- As mentioned in css, I wanted to creat a class that matched the purpose (marquee) -->
+        <img src="./assets/images/Animated Matrix.webp" class="marquee" alt="Animated Matrix-like code rain">
+
+    <!-- Left-side section under the marquee -->
+    <section class="content">
+        <!-- My third (this) application section w/links (picture and github)-->
+        <section id="week2" class="pre-work-site">
+            <a href="https://estee3.github.io/03-Challenge/">
+                <img src="./assets/images/02-challenge-site.png" class="float-bottom" alt="Social media icons on a meeting room desk"/>
+                <h2>My Newest Application</h2>
+                <p><a href="https://github.com/ysrinu1/urban-octo-telegram">(Github Link)</a></p>
+                <br>
+                <p>
+                    This site was created following 2 full weeks-worth of coding bootcamp.  Note the evolution of sites from the initial pre-work site, to this site.  Gradient background coloring, text blur and animated header are just a few of the features that I've built into this site.
+                </p>
+        </section>
+
+        <!-- My second application section w/links (picture and github)-->
+        <section id="week1" class="module-01-challenge">
+            <a href="https://github.com/ysrinu1/urban-octo-telegram">
+            <img src="./assets/images/Website.png" class="float-left" alt="Website screenshot of several people working around a meeting room table"/>
+            <h2>My 2nd Application</h2>
+            <p><a href="https://github.com/ysrinu1/urban-octo-telegram">(Github Link)</a></p>
+            <br>
+            <p>
+                This represents my ability to take a pre-built site and ensure that it's converted to utilize symantic tags as well as adding far more descriptive code so that visitors that may have disabilities will still be able to understand and interact with it.
+            </p>
+        </section>
+    </section>
+
+    <!-- Right-side section under the marquee -->
+    <section id="about" class="about-me">
+        <section class="my-details">
+            <h3>My Information</h3>
+            <img src="./assets/images/My Avatar.png" alt="Lead Generation icon"/>
+            <p>
+                I've held several positions over the past 15+ years of IT experience.  Here's a list of positions I've held, throughout my tenure there:
+            </p>
+            <ul>
+                <li>Associate Software Developer</li>
+                <li>Software Developer</li>
+                <li>Sr.Software Engineer</li>
+                <li>Team Lead</li>
+                <li>Sr. Reliability Engineer </li>
+            </ul>
+        </section>
+        <br>
+        <section id="contact" class="contact-info">
+            <h3>Contact Me:</h3>
+            <ul>
+                <li>Srini Yedla</li>
+                <li>Sr. Reliability Engineer</li>
+                <li>Mailing Address: 777 S Mathilda Ave</li>
+                <li>Phone: 1 (408) 564-3269</li>
+                <li>Email: ysrinu15@gmail.com</li>
+            </ul>
+            <br><br><br><br>
+        </section>
+        <section id="contact" class="contact-info">
+            <h3>Social Media:</h3>
+            <ul>
+                <li>
+                    <a href="www.linkedin.com/in/syedla/" target="_blank">LinkedIn</a>
+                </li>
+            </ul>
+        </section>
+    </section>
+    
+    <!-- Bottom section -->
+    <div id="pre-work" class="module-02-challenge">
+        <!-- My first application section w/links (picture and github)-->
+        <a href="https://github.com/ysrinu1/urban-octo-telegram">
+            <img src="./assets/images/Pre-Work Website.png" class="float-left" alt="Website screenshot with list of basic coding items"/>
+            <h2>My 1st Application</h2>
+            <p><a href="https://github.com/ysrinu1/urban-octo-telegram">(Github Link)</a></p>
+            <br>
+            <p>
+                I present to you the initial website-based solution that I was required to complete as part of the pre-work module.  It outlines the initial code-based items I learned about and executed some basic activities with.
+            </p>
+    </div>
+
+    <!-- Footer area -->
+    <footer class="footer">
+        <h2>A Srini Yedla Production</h2>
+        <p>
+            &copy; 2022 Srini Yedla <span class="seo">[c0d1ng]</span>
+        </p>
+    </footer>
+
+</body>
 </html>
